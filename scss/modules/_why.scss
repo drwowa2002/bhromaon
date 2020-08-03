@@ -1,0 +1,67 @@
+.why {
+    width: 100%;
+    height: 75vh;
+    background: url("/images/choose.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+
+    &__title {
+        font-family: 'Aleo', serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 150px;
+    }
+
+    &__text {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 40px;
+        line-height: 2;
+        font-family: 'Aleo', serif;
+    }
+
+    &__picture {
+        width: 350px;
+        height: 220px;
+    }
+
+    &__picture1 {
+        margin-top: 100px;
+    }
+
+    &__picture2 {
+        margin: 10px 0 0 100px;
+    }
+}
+
+
+.explore {
+
+    &__button {
+        margin-top: 40px;
+        width: 250px;
+        height: 50px;
+        color: white;
+        background-color: #5474fd;
+        transition: .2s;
+
+        &:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+            cursor: pointer;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-family: 'Aleo', serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    
+}
+
+
+
+

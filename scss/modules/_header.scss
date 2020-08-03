@@ -1,0 +1,158 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: url("/images/header.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &__title {
+        margin-top: 10%;
+        font-size: 64px;
+        font-weight: 800;
+    }
+
+    &__describe {
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 7px;
+    }
+
+
+}
+
+.search {
+    margin-top: 50px;
+    width: 40%;
+    height: 60px;
+    position: relative;
+    
+    &__input {
+        height: 100%;
+        width: 100%;
+        padding-left: 100px;
+        font-size: 16px;
+        letter-spacing: 4px;
+
+        &:focus {
+            border: 1px solid red;
+        }
+
+        &::placeholder {
+            color: rgb(172, 171, 171);
+        }
+    }
+
+
+    &__button {
+        background-color: #5474fd;
+        color: white;
+        @include pos($t: 4px, $r: 4px);
+        z-index: 1;
+        height: calc(100% - 8px);
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .3s;
+        font-family: 'Aleo', serif;
+
+        &-icon {
+            margin-left: 10px;
+            fill: white;
+            @include size(25px);
+        }
+
+        &:hover {
+            transform: scale(1.03);
+            filter: brightness(1.1);
+        }
+    }
+
+}
+
+
+.navigation {
+    width: 100%;
+    height: 100px;
+    @include pos($b: 0px, $l: 0px);
+    background-color: #5474fd;
+    color: white;
+
+    &--container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    &__list {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        transition: .3s;
+        font-size: 18px;
+        font-family: 'Aleo', serif;
+
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+}
+
+
+.scroll {
+    animation: alt 2s ease-in-out infinite;
+    position: absolute;
+    
+    &__icon {
+        fill: white;
+        @include size(50px);
+    }
+
+    &__link { 
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__text {
+        color: white;
+        letter-spacing: 3px;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: 'Aleo', serif;
+    }
+}
+
+
+@keyframes alt {
+    0% {
+        bottom: 120px;
+    }
+
+    50% {
+        bottom: 150px;
+    }
+
+    100% {
+        bottom: 120px;
+    }
+}
+
+
+

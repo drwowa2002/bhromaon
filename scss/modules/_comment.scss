@@ -1,0 +1,59 @@
+.comment {
+    width: 100%;
+    background: url("/images/travel.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+
+    &__title {
+        font-size: 36px;
+        color: white;
+        text-align: center;
+        font-family: 'Aleo', serif;
+    }
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    &__image {
+        width: 445px;
+        height: 284px;
+    }
+
+    &__info {
+        width: 665px;
+        height: 284px;
+        display: flex;
+        flex-direction: column;
+        background-color: #333333;
+        padding: 50px 60px;
+        color: white;
+    }
+
+    &__name {
+        font-size: 17px;
+        color: #fefefe;
+        margin-bottom: 33px;
+        text-transform: uppercase;
+        font-family: 'Aleo', serif;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.63;
+        color: #e8e8e8;
+        font-family: 'Aleo', serif;
+    }
+
+    &__item {
+        width: 1110px;
+        height: 284px;
+        display: flex;
+        flex-direction: row;
+        margin: 100px auto;
+    }
+}

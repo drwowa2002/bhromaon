@@ -1,0 +1,53 @@
+.tools {
+    width: 100%;
+    height: 25vh;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    transition: .2s;
+
+    &__icon {
+        @include size(60px);
+        margin-bottom: 20px;
+        cursor: pointer;
+        
+        &--purple {
+            fill: #5474fd;
+        }
+
+        &--red {
+            fill: #ff6363;
+        }
+
+        &--blue {
+            fill: #00a2ff;
+        }
+
+        &:hover {
+            fill: green;
+        }
+    }
+
+    &__title {
+        color: white;
+        font-size: 36px;
+        font-family: 'Aleo', serif;
+        font-weight: 500;
+        cursor: pointer;
+
+        &:hover + svg {
+            fill: green;
+        }
+
+
+
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+}

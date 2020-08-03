@@ -1,0 +1,49 @@
+.footer {
+    width: 100%;
+    background-color: #232323;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Aleo', serif;
+    }
+
+    &__info {
+        font-size: 16px;
+        color: white;
+        margin: 15px 0 30px;
+        text-align: center;
+        font-family: 'Aleo', serif;
+    }
+
+    &__icons {
+        width: 165px;
+        height: 17px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+
+    }
+      
+    &__icon {
+        width: 20px;
+        height: 17px;
+        fill: white;
+        cursor: pointer;
+        transition: .2s;
+
+        &:hover {
+            transform: scale(1.07);
+            fill: aqua;
+        }
+    }
+}
