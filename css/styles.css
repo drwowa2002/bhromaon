@@ -99,7 +99,7 @@ body, html {
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
-  background: url("/images/header.jpg") no-repeat;
+  background: url("../images/header.jpg") no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -301,7 +301,7 @@ body, html {
 .why {
   width: 100%;
   height: 75vh;
-  background: url("/images/choose.jpg") no-repeat;
+  background: url("../images/choose.jpg") no-repeat;
   background-size: cover;
   color: white;
 }
@@ -431,12 +431,12 @@ body, html {
 }
 
 .view--bg1 {
-  background: url("/images/spain-1.jpg") no-repeat;
+  background: url("../images/spain-1.jpg") no-repeat;
   background-size: cover;
 }
 
 .view--bg2 {
-  background: url("/images/spain-2.jpg") no-repeat;
+  background: url("../images/spain-2.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -479,7 +479,7 @@ body, html {
 
 .comment {
   width: 100%;
-  background: url("/images/travel.jpg") no-repeat;
+  background: url("../images/travel.jpg") no-repeat;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 200px;

@@ -4,12 +4,12 @@
     position: relative;
 
     &--bg1 {
-        background: url("/images/spain-1.jpg") no-repeat;
+        background: url("../images/spain-1.jpg") no-repeat;
         background-size: cover;
     }
 
     &--bg2 {
-        background: url("/images/spain-2.jpg") no-repeat;
+        background: url("../images/spain-2.jpg") no-repeat;
         background-size: cover;
     }
 }
